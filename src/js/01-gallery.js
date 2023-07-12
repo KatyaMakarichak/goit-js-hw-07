@@ -22,6 +22,7 @@ function createGalleryItemsMarkup(items) {
     .join('');
 }
 
+
 const instance = basicLightbox.create(
   `
 <img width="1280" height="auto" src="">`,

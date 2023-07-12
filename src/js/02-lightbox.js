@@ -12,5 +12,6 @@ const markup = galleryItems.map(({ preview, original, description }) =>
     />
   </a>
 </li>`);
+
 galleryListElem.insertAdjacentHTML('beforeend', markup.join(''));
 let galleryShow = new SimpleLightbox('.gallery a', { captions: true, captionsData: 'alt', captionDelay: 250, captionPosition: 'bottom'});
